@@ -8,10 +8,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*elementos base*/
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -36,4 +37,22 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+/* Filme pricipal*/
+.filme-principal{
+    background-image: linear-gradient(rgba(0, 0, 0, 5),rgba(0, 0, 0, .5)), url("/resources/HouseOfCards-Logo.png");
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .description{
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 40px;
 }
